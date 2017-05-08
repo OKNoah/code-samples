@@ -1,0 +1,26 @@
+{
+  "extends": "airbnb",
+  "root": true,
+  "globals": {
+    "__DEV__"      : false,
+    "__PROD__"     : false,
+    "__DEBUG__"    : false,
+    "__DEBUG_NW__" : false
+  },
+  "ecmaFeatures": {
+    "generators": true,
+    "spread": true,
+    "restParams": true,
+    "experimentalObjectRestSpread": true
+  },
+  "rules": {
+    "comma-dangle": [1, "never"],
+    "key-spacing": [0, {
+      "beforeColon": true,
+      "afterColon": true
+    }],
+    "space-before-function-paren": [0, "always"],
+    "spaced-comment": 0,
+    "max-len": 0
+  }
+}
